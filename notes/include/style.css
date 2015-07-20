@@ -14,3 +14,48 @@ h1 {
 	font-size: 18pt;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	color: #06c;
+	margin-top: 2em;
+	margin-bottom: 1em;
+	padding: 25px;
+	font-weight: bold;
+}
+
+h2,h3,h4, h5,h6 {
+	margin-top: 1.5em;
+	margin-bottom:.75em;
+}
+
+h1 {font-size: 200%}
+h2 {font-size: 167%}
+h3 {font-size: 133%}
+h4 {font-size: 120%}
+h5 {font-size: 110%}
+
+table {
+	border: 1px solid #bbb;
+	border-spacing: 0;
+	border-collapse: collapse;
+	margin: 0 0 1.5em;
+	vertical-align: middle;
+	width: 100%
+}
+
+td, th {
+	border: 1px solid #ccc;
+	padding: 2px 12px;
+	font-size: 10pt;
+}
+
+code, samp, var {
+	background-color: #FAFAFA;
+	white-space: nowrap
+}
+
+pre {
+	padding: 6px 10px;
+	background-color:#FAFAFA;
+	border: 1px solid #bbb;
+	overflow: auto;
+}
