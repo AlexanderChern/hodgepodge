@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>code review 问题记录</title>
+<link rel="stylesheet" type="text/css" href="include/style.css">
+<!-- here goes the js file -->
+<head>
+
+<body>
+<div id = "content">
+	<h1>code review 问题记录</h1>
+	<p>在没有使用锁的地方尽量避免使用锁，使用锁的时候尽量使用更加细粒度的锁，防止代码阻塞在没有必要的地方。针对java的情况synchronized关键字的锁比较大，尽量少用</p>
+	<p>集合，map，list等数据结构的判空尽量使用相应的工具类比如CollectionUtils。</P>
+	<P>在public方法的开始的第一步工作就是验参，调用公共方法的人是未知的，同时在公共方法返回的时候一定要注意不能返回空的，相信别人是不会验参的。</p>
+	<p>public方法以最小化的原则进行开放，没有必要开放的就是用private</p>
+
+</body>
+</html>
