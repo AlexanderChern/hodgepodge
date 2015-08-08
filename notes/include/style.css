@@ -59,3 +59,50 @@ pre {
 	border: 1px solid #bbb;
 	overflow: auto;
 }
+
+pre.prettyprint {
+	padding: 6px 10px !important;
+	border: 1px solid #bbb !important;
+}
+
+code.bad, code.badcode {
+	color: magenta;
+}
+
+pre.bad, pre.badcode {
+	background-color:#ffe6d8;
+	border-top:1px inset #a03;
+	border-left:1px inset #a03;
+}
+
+hr {
+	margin-top: 3.5em;
+	border-width: 1px;
+	color: #fff;
+}
+
+/* TOC CSS */
+table.colums {
+	border: none;
+}
+
+td.two_columns {
+	-webkit-column-count: 2;
+	column-count: 2;
+}
+
+.toc_category {
+	font-size: 10pt;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	border-right-width: 2px;
+	border-left-width: 2px;
+	border-color: grey;
+}
+
+.toc_stylepoint {
+	font-size: 10px;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
